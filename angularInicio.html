@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="nada">
+<head>
+	<title></title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.0-rc.1/angular.min.js"></script>
+</head>
+<body ng-controller="control">
+	<div ng-show="true">
+		esto se ve  si o no?
+	</div>
+	<button ng-click="controladorBoton()"> 
+
+	</button>
+
+	<script>
+	var appli = angular.module('nada',[])
+	appli.controller('control',['scope', function($scope){
+		var joda = function controladorBoton(){
+			ng-show ="false"
+		}
+
+	}])
+	</script> 
+</body>
+</html>
